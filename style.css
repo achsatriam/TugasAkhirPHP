@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family: "Signika Negative";
+}
+
+body {
+    background-color: #FFF0F0;
+}
+
+.text-action{
+    text-decoration: none;
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+.input {
+    border: solid 3px black;
+    border-radius: 10px;
+    padding: 13px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 97%;
+}
+
+.username:focus, .password:focus {
+    background-color: gainsboro;
+}
+
+.fontweight {
+    font-size: large;
+    font-weight: 600;
+}
+
+.button {
+    color: white;
+    background-color: black;
+    font-size: large;
+    font-weight: 600;
+    border-radius: 10px;
+    border: solid 3px black;
+    padding: 13px 10px;
+    width: 100%;
+    font-family: "Signika Negative";
+    margin-top: 15px;
+}
+
+.button-action {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-size: large;
+    font-weight: 600;
+    border-radius: 10px;
+    border: solid 3px black;
+    padding: 5px 5px;
+    width: 20%;
+    font-family: "Signika Negative";
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn-action {
+    border: none;
+    padding: 4px 12px;
+
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.btn-action:hover {
+    background-color: black;
+    color: white;
+}
+
+.padding {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.submit {
+    padding: 20px 0 0 0;
+}
+
+.card {
+    background-color: white;
+    border: solid 5px black;
+    border-radius: 20px;
+    width: 400px;
+    padding: 30px;
+    margin-inline: auto;
+}
+
+.tablecard {
+    box-sizing: border-box;
+    background-color: white;
+    border: solid 5px black;
+    border-radius: 10px;
+    margin-inline: auto;
+    width: 65%;
+    padding: 20px 20px;
+}
+
+.tablecard-home {
+    box-sizing: border-box;
+    background-color: white;
+    border: solid 5px black;
+    border-radius: 10px;
+    margin-inline: auto;
+    width: 75%;
+    padding: 20px 20px;
+}
+
+.form-content {
+    padding: 5px 25px 10px 25px;
+}
+
+.container {
+    padding-top: 10vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.containertable {
+    padding-top: 70px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.bottom {
+    margin-top: 2;
+    margin-bottom: 3;
+}
+
+/* CSS */
+.button-user {
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: 10px 30px;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100px;
+  margin-left: 10px;
+}
+
+.button-user:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.button-user:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+.center .button-action {
+    cursor: pointer;
+}
